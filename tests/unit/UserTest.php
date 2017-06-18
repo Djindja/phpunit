@@ -53,7 +53,7 @@ class UserTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($user->getEmail(), 'stefan@gmail.com');
     }
 
-    public function testEmailVAriablesContainCorrectValues()
+    public function testEmailVariablesContainCorrectValues()
     {
         $user = new \App\Models\User;
         $user->setFirstName('Billy');
